@@ -1,26 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "api/udio-generate.js": {
-      "maxDuration": 60
-    },
-    "api/udio-feed.js": {
-      "maxDuration": 30
-    },
-    "api/kie-api.js": {
-      "maxDuration": 30
-    },
-    "api/kie-callback.js": {
-      "maxDuration": 10
-    },
-    "api/blob-upload.js": {
-      "maxDuration": 60
-    },
-    "api/blob-put-simple.js": {
-      "maxDuration": 60
-    },
-    "api/download-proxy.js": {
-      "maxDuration": 60
-    }
+    "api/generate.js": { "maxDuration": 60 },
+    "api/generate-stream.js": { "maxDuration": 60 },
+    "api/models.js": { "maxDuration": 30 },
+    "api/history.js": { "maxDuration": 30 }
   }
 }
