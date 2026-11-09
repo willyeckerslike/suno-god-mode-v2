@@ -11,7 +11,6 @@
     "deploy": "npx vercel"
   },
   "dependencies": {
-    "@vercel/blob": "^2.3.3",
     "postgres": "^3.4.9"
   },
   "devDependencies": {
